@@ -15,6 +15,7 @@ public class Lab {
      * @return true if there is a successful login, and false otherwise.
      */
     public boolean login(String username, String password){
-        return false;
+        /*You don't really """need""" to use if/else statements like the comment above states.*/
+        return ((username=="admin" && password =="qwerty") || (username=="user" && password=="password"));
     }
 }
